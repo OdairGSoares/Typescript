@@ -70,7 +70,6 @@ interface i_jogo_com_descricao {
     dizer_nome_com_descricao(): string;
 }
 
-
 class jogo_com_descricao extends jogo implements i_jogo_com_descricao{
     
     //metodo private só pode ser acessado dentro da classe.
